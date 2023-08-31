@@ -8,17 +8,40 @@ export default function Home() {
         <div>
           <h1>
             <span>
-              Hello<span className={styles.yellowText}>.</span>
+              Holi<span className={styles.yellowText}>.</span>
             </span>
             <br />
             <span>
-              <span>I am</span>
+              <span>Soy</span>
             </span>
             <br />
-            <span>Josh Carlson</span>
+            <span>Juan Vasquez</span>
           </h1>
         </div>
       </header>
+      <section className={styles.infoSection}>
+        <div className={styles.infoContainer}>
+          <span className={styles.title + "" + styles.yellowText}>Juan</span>
+          <br />
+          <span className={styles.title}>Vasquez</span>
+        </div>
+        <div className={styles.list}>
+          <ul>
+            <li>
+              <pan className={styles.grayText}>Edad:</pan> 17
+            </li>
+            <li>
+              <span className={styles.grayText}>Nacionalidad:</span> Guatemalteco
+            </li>
+            <li>
+            <span className={styles.grayText}>Habilidades:</span> bueno en la chamba
+            </li>
+            <li>
+            <span className={styles.grayText}>Lenguajes:</span> Español e ingles
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
   );
 }
