@@ -20,6 +20,11 @@ export default function Home() {
         </div>
       </header>
       <section className={styles.infoSection}>
+        <img
+          src="/Among-Us-Logo.png"
+          alt="Imagen"
+          className={styles.Image}
+        />
         <div className={styles.infoContainer}>
           <span className={styles.title + "" + styles.yellowText}>Juan</span>
           <br />
