@@ -21,12 +21,12 @@ function Navbar() {
         <nav className={styles.navbar}> 
             <div 
             className={styles.navbarItem + ` ${selectedItem === "Inicio" ? styles.selected : ""}`}
-            onClick={() => handleItemClick("Inicio")}>
+            onClick={() => handleItemClick("Inicio", "header")}>
                 <a href="#header">Inicio</a>
             </div>
             <div 
             className={styles.navbarItem + ` ${selectedItem === "Habilidades" ? styles.selected : ""}`}
-            onClick={() => handleItemClick("Habilidades")}>
+            onClick={() => handleItemClick("Habilidades", "info")}>
                 <a href= "#info">Habilidades</a>
             </div>
         </nav>
