@@ -32,7 +32,7 @@
   margin: 40px;
 }
 
-.infoContainer.title{
+.infoContainer .title{
   font-size: 60px;
   font-weight: bold;
 }
